@@ -1,19 +1,17 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class compare_two_string {
     public static void main(String[] args) {
-        Scanner i=new Scanner(System.in);
-        System.out.println("enter the 2 string");
-        String str1=i.nextLine();
-        String str2=i.nextLine();
-        int result=str1.compareTo(str2);
-        if(result>0)
-            System.out.println("\"" + str1 + "\"" + "is greator than " + "\"" + str2 + "\"");
-        else if(result<0)
-            System.out.println("\"" + str1 + "\"" + "is less than " + "\"" + str2 + "\"");
-        else if (result==0)
-            System.out.println("\"" + str1 + "\"" + "is equal than " + "\"" + str2 + "\"");
+        String first = "madam";
+        String second = "dmama";
+        String third = "python programming";
+
+        // compare first and second strings
+        boolean result1 = first.equals(second);
+        System.out.println("Strings first and second are equal: " + result1);
+
+        // compare first and third strings
+        boolean result2 = first.equals(third);
+        System.out.println("Strings first and third are equal: " + result2);
     }
 }
