@@ -14,6 +14,7 @@ class arrayaist{
         a1.add("g");
         a1.add("x");
         a1.add("z");
+        a1.add(34);
         a1.add(1, "A2");
         System.out.println("Size of a1 after additions:"+a1.size());
         System.out.println("Content of a1"+a1);
